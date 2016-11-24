@@ -1,0 +1,36 @@
+{
+  "name": "movie",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "movie_id": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "movie_title": {
+      "type": "string",
+      "required": true
+    },
+    "genre_id": {
+      "type": "number",
+      "required": true
+    },
+    "release_year": {
+      "type": "date",
+      "required": true
+    },
+    "director_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

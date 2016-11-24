@@ -1,0 +1,24 @@
+{
+  "name": "director",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "director_name": {
+      "type": "string",
+      "required": true
+    },
+    "director_id": {
+      "type": "number",
+      "id": true,
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

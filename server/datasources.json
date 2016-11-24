@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "strong_movie",
+    "name": "mysqlDs",
+    "connector": "mysql",
+    "user": "root"
+  }
+}
